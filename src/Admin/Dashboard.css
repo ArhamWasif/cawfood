@@ -1,0 +1,84 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .overview {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .card1 {
+    flex: 1;
+    padding: 20px;
+    background-color: #a05353;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  /* .row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+  } */
+  
+  .column {
+    flex-basis: 100%;
+    
+  }
+  
+  
+  
+  /* Additional styles to make the layout responsive */
+  @media (min-width: 768px) {
+    .column {
+      flex-basis: 48%;
+    }
+  }
+  .recent-orders{
+  padding: 60px; /* Increase the padding for more space */
+  background-color: #0a030375;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(124, 65, 65, 0.1);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 800px;
+}
+
+.recent-orders h2{
+  margin-bottom: 10px;
+  color: #a05353;
+  
+  font-size: 1.8rem; /* Increase the font size for a bigger heading */
+}
+
+.table-container {
+  max-height: 400px; /* Increase the max height to accommodate more rows */
+  overflow-y: auto;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px; /* Increase the cell padding for more space */
+}
+
+th {
+  background-color: black;
+}

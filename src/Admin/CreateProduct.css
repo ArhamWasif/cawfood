@@ -1,0 +1,56 @@
+/* html,body {
+  overflow: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial, sans-serif;
+  background-color: #9e4f4f;
+} */
+
+
+.newProduct {
+  width: 580px;
+  height: 580px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #998e8e;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* overflow: hidden; */
+}
+
+.newProductTitle {
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"], input[type="file"] {
+  width: 100%;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.createProductButton {
+  background-color: #007bff; /* Set your desired button background color here */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.createProductButton:hover {
+  background-color: #0056b3; /* Set your desired button hover background color here */
+}
